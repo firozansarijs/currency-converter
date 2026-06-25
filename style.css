@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    #667eea 0%,
+    #764ba2 50%,
+    #af4d98 100%
+  );
+}
+
+.container {
+  width: 420px;
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  transition: 0.4s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+.amount p,
+.from p,
+.to p {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+form input {
+  width: 100%;
+  height: 55px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 14px;
+  padding: 0 1rem;
+
+  font-size: 1rem;
+
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.6rem;
+
+  background: rgba(255, 255, 255, 0.85);
+
+  border-radius: 14px;
+}
+
+.select-container img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.select-container select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dropdown i {
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  transition: 0.3s ease;
+}
+
+.dropdown i:hover {
+  transform: rotate(180deg);
+}
+
+.msg {
+  margin: 2rem 0;
+
+  padding: 1rem;
+
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: white;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  border-radius: 14px;
+}
+
+form button {
+  width: 100%;
+  height: 55px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(
+    135deg,
+    #ff6ec4,
+    #7873f5
+  );
+
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 25px rgba(255, 110, 196, 0.4);
+}
+
+form button:active {
+  transform: scale(0.98);
+}
