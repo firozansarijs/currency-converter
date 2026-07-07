@@ -1,4 +1,4 @@
 # currency-converter
-Currency Converter | HTML, CSS, JavaScript | Converts currencies using live exchange rates with a clean and responsive UI.
+➡️ Currency Converter | HTML, CSS, JavaScript | Converts currencies using live exchange rates with a clean and responsive UI.
 <br>
-Author - firoz ansari(btech student)
+➡️ Author - firoz ansari(btech student)
