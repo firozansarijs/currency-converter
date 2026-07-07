@@ -93,4 +93,4 @@ btn.addEventListener("click", (evt) => {
 // Load page
 window.addEventListener("load", () => {
   updateExchangeRate();
-});
+}); 
